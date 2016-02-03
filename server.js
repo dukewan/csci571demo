@@ -1,6 +1,6 @@
 var http = require('http');
 
-var hostname = '52.79.54.82';
+var hostname = '172.31.12.48';
 var port = 45678;
 
 http.createServer(function (req, res) {

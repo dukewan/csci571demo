@@ -1,8 +1,11 @@
-const http = require('http');
+var http = require('http');
+
+var hostname = '127.0.0.1';
+var port = 45678;
 
 http.createServer(function (req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World CSCI571!\n');
-}).listen('127.0.0.1', '45678', function () {
-  console.log(`Server running at port: 45678`);
+}).listen(hostname, port, function () {
+  console.log(`Server running at http://${hostname}:${port}/`);
 });

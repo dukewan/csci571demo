@@ -1,0 +1,2 @@
+CSCI571 focuses on the phenomenon known as the World Wide Web (WWW or Web).
+It's focus is to present many of the core technologies that the Web is based upon.
